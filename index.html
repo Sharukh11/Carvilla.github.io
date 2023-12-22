@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carvilla </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+       
+        
+        .sidenav {
+          height: 100%;
+          width: 0;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: rgb(29, 27, 27);
+          overflow-x: hidden;
+          transition: 0.5s;
+          padding-top: 60px;
+        }
+        
+        .sidenav a {
+          padding: 8px 8px 8px 32px;
+          text-decoration: none;
+          font-size: 25px;
+          color: white;
+          display: block;
+          transition: 0.3s;
+        }
+        
+        .sidenav a:hover {
+          color: #f1f1f1;
+        }
+        
+        .sidenav .closebtn {
+          position: absolute;
+          top: 0;
+          right: 25px;
+          font-size: 36px;
+          margin-left: 50px;
+        }
+
+        .header_bar{
+            background-color: yellow;
+        }
+        
+        @media screen and (max-width: 768px) {
+          .sidenav {padding-top: 15px;}
+          
+          .sidenav a {font-size: 18px;}
+          
+        }
+        </style>
+
+
+</head>
+
+<body>
+    <div class="header_bar">
+            <h3 class="hamburg" style="text-align: center;">Carvilla</h3>
+        
+        <!-- Responsive Navbar -->
+        <span class="hamburg" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#Home">Home</a>
+            <a href="#Services">Service</a>
+            <a href="#NewCars">New Cars</a>
+            <a href="#FeaturedCars">Featured Cars</a>
+            <a href="#Brands">Brands</a>
+            <a href="#contact">Contact Us</a>
+            
+          </div>
+
+          
+          
+
+
+        <div class="navBar ">
+           
+            <div class="container">
+               
+                <nav class="navCont">
+
+                    <div class="logo">
+                        <p class="logoP">Carvilla</p>
+                    </div>
+
+                    <div class="navi">
+                        <ul>
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#Services">Service</a></li>
+                            <li><a href="#NewCars">New Cars</a></li>
+                            <li><a href="#FeaturedCars">Featured Cars</a></li>
+                            <li><a href="#Brands">Brands</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <main>
+        <div class="fixSlide" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="textArea">
+                            <h3>GET YOUR DESIRED CAR IN RESONABLE PRICE</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                            <button>Contact Us</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cardSection" id="Services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="firstCol">
+                            <div class="car">
+                                <i class="fa fa-car" aria-hidden="true"></i>
+                            </div>
+                            <h2>largest dealership </h2>
+                            <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="firstCol">
+                            <div class="car">
+                                <i class="fa fa-truck" aria-hidden="true"></i>
+                            </div>
+                            <h2>largest dealership </h2>
+                            <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="firstCol">
+                            <div class="car">
+                                <i class="fa fa-taxi" aria-hidden="true"></i>
+                            </div>
+                            <h2>largest dealership </h2>
+                            <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="latest" id="slide_car">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Checkout The Latest Cars</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Newest Cars</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slider Car_banner">
+
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 slick_image" id="NewCars">
+                            <img class="slick_image" src="./images/new-cars-model/ncm1.png" alt="" srcset="">
+
+                        </div>
+                        <div class="col-md-6 slide_para">
+                            <h3>Chevrolet Camwro ZA100 </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi quae facilis dignissimos
+                                enim delectus doloremque praesentium quis necessitatibus, optio accusantium autem
+                                accusamus reiciendis excepturi odit quaerat dicta fuga repellendus nihil.</p>
+
+                            <button>View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 slick_image">
+                            <img class="slick_image" src="./images/new-cars-model/ncm2.png" alt="" srcset="">
+
+                        </div>
+                        <div class="col-md-6 slide_para">
+                            <h3>Chevrolet Camwro ZA100 </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi quae facilis dignissimos
+                                enim delectus doloremque praesentium quis necessitatibus, optio accusantium autem
+                                accusamus reiciendis excepturi odit quaerat dicta fuga repellendus nihil.</p>
+
+                            <button>View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <img class="slick_image" src="./images/new-cars-model/ncm3.png" alt="" srcset="">
+
+                        </div>
+                        <div class="col-md-6 slide_para">
+                            <h3>Chevrolet Camwro ZA100 </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi quae facilis dignissimos
+                                enim delectus doloremque praesentium quis necessitatibus, optio accusantium autem
+                                accusamus reiciendis excepturi odit quaerat dicta fuga repellendus nihil.</p>
+
+                            <button>View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="latest">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Checkout The Featured Cars</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Featured Cars</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="FeaturedCars">
+
+            <div class="container img_sec">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top img_card" src="./images/featured-cars/fc1.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Model: 2017 3100 Mi 240HP Automatic</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top img_card" src="./images/featured-cars/fc2.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Model: 2017 3100 Mi 240HP Automatic</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top img_card" src="./images/featured-cars/fc3.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Model: 2017 3100 Mi 240HP Automatic</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top img_card" src="./images/featured-cars/fc4.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Model: 2017 3100 Mi 240HP Automatic</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+              
+
+            
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card_text">
+                            <p id="head_para">BMW 6-Series Gran Coupe</p>
+                            <p>$89,395</p>
+
+                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                velit, sed quia non.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card_text">
+                            <p id="head_para">Chevrolet Camaro WMV20</p>
+                            <p>$66,575</p>
+
+                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                velit, sed quia non.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card_text">
+                            <p id="head_para">Lamborghini V520</p>
+                            <p>$125,250</p>
+
+                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                velit, sed quia non.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card_text">
+                            <p id="head_para">Audi A3 Sedan</p>
+                            <p>$95,500</p>
+
+                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                velit, sed quia non.</p>
+                        </div>
+                    </div>
+                </div>
+           
+
+        </section>
+
+
+        <section class="car_col">
+
+            <div class="container img_sec">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top img_card" src="./images/featured-cars/fc5.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Model: 2017 3100 Mi 240HP Automatic</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top img_card" src="./images/featured-cars/fc6.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Model: 2017 3100 Mi 240HP Automatic</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top img_card" src="./images/featured-cars/fc7.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Model: 2017 3100 Mi 240HP Automatic</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top img_card" src="./images/featured-cars/fc8.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Model: 2017 3100 Mi 240HP Automatic</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card_text">
+                            <p id="head_para">Infiniti Z5</p>
+                            <p>$36,850</p>
+
+                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                velit, sed quia non.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card_text">
+                            <p id="head_para">Porsche 718 Cayman</p>
+                            <p>$48,500</p>
+
+                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                velit, sed quia non.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card_text">
+                            <p id="head_para">BMW 8-Series Coupe</p>
+                            <p>$56,000</p>
+
+                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                velit, sed quia non.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card_text">
+                            <p id="head_para">BMW Xseries-6</p>
+                            <p>$75,800</p>
+
+                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                velit, sed quia non.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="latest">
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="client_h2">What Our Clients Say</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="client">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="client_box">
+                            <img src="./images/clients/c1.png" alt="" srcset="">
+                            <p class="testi_para">
+                                Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem
+                                aperiam, eaque ipsa quae ab illo inventore verit.
+                            </p>
+                            <p id="testi_text">Tomas Lili</p>
+                            <p id="testi_text">New York</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="client_box">
+                            <img src="./images/clients/c2.png" alt="" srcset="">
+                            <p class="testi_para">
+                                Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem
+                                aperiam, eaque ipsa quae ab illo inventore verit.
+                            </p>
+                            <p id="testi_text">Tomas Lili</p>
+                            <p id="testi_text">New York</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="client_box">
+                            <img src="./images/clients/c3.png" alt="" srcset="">
+                            <p class="testi_para">
+                                Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem
+                                aperiam, eaque ipsa quae ab illo inventore verit.
+                            </p>
+                            <p id="testi_text">Tomas Lili</p>
+                            <p id="testi_text">New York</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="container" id="Brands">
+            <section class="brands slider_crouse">
+
+            
+                <div>
+                    <div class="brand_img">
+                        <img src="./images/brand/br1.png" alt="">
+                    </div>
+                    
+                </div>
+    
+                <div>
+                    <div class="brand_img">
+                        <img src="./images/brand/br2.png" alt="">
+                    </div>
+                    
+                </div>
+    
+                <div>
+                    <div class="brand_img">
+                        <img src="./images/brand/br3.png" alt="">
+                    </div>
+                    
+                </div>
+    
+                <div>
+                    <div class="brand_img">
+                        <img src="./images/brand/br4.png" alt="">
+                    </div>
+                    
+                </div>
+    
+                <div>
+                    <div class="brand_img">
+                        <img src="./images/brand/br5.png" alt="">
+                    </div>
+                    
+                </div>
+    
+                <div>
+                    <div class="brand_img">
+                        <img src="./images/brand/br6.png" alt="">
+                    </div>
+                    
+                </div>
+    
+                <div>
+                    <div class="brand_img">
+                        <img src="./images/brand/br1.png" alt="">
+                    </div>
+                    
+                </div>
+    
+                <div>
+                    <div class="brand_img">
+                        <img src="./images/brand/br2.png" alt="">
+                    </div>
+                    
+                </div>
+            
+            
+            
+        </section>
+        </div>
+        
+
+
+
+
+
+    </main>
+
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer_head">
+                        <h3>Carvilla</h3>
+                        <p class="footer_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nam nemo
+                            natus, </p>
+                        <span>info@carvilla.com</span>
+                        <p class="footer_info">+91 (885) 2563154554</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="footer_head">
+                        <h5>About Us</h5>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Career</li>
+                            <li>Terms of Service</li>
+                            <li>Privacy Policy</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+                    <div class="footer_head">
+                        <h5>Top Brands</h5>
+
+                        <ul>
+                            <li>BMW</li>
+                            <li>Lamborghini</li>
+                            <li>Camaro</li>
+                            <li>Audi</li>
+                            <li>Infiniti</li>
+                            <li>Nisan</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+                    <div class="footer_head">
+                        <h5>Contact Us</h5>
+                        <p class="mail_box">Send Us Email For More Quaries</p>
+                        <div class="form-group">
+
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <hr style="border-top: 1px solid black;">
+           
+                <div class="copy_row">
+                    <div class="left_copy">
+                        <p>&copy; Developed By Sharukh</p>
+                    </div>
+                    <div class="right_copy">
+                        <ul>
+                            <li>
+                                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            
+        </div>
+
+
+
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+
+        $('.slider_crouse').slick({
+            infinite: true,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: false,
+            responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+
+
+            
+        });
+
+
+    
+        $('.Car_banner').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: false,
+            responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+
+
+            
+        });
+
+    </script>
+
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    
+
+
+</body>
+
+</html>

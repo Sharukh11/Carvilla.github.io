@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Poppins:ital,wght@1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    list-style: none;
+    color: #000000;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+a:hover{
+    
+    color: #000000;
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Hedvig Letters Sans', sans-serif;
+}
+.navBar{
+    background-color: rgb(255, 236, 4);
+}
+.navi > ul{
+    display: flex;
+    padding: 27px 0px;
+   
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 78px;
+    
+    color: #000000;
+}
+
+.navi > ul > li{
+    
+    padding: 0 20px;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+
+.logo{
+    padding: 25px 0;
+}
+
+.logo>p{
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.textArea> h3{
+    text-align: center;
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.textArea> p{
+    text-align: center;
+    font-size: 18px;
+    text-transform: initial;
+    color: #fff;
+    font-weight: 500;
+    max-width: 735px;
+    margin: 0 auto;
+}
+
+
+.textArea> button{
+    width: 230px;
+    height: 60px;
+    background: #ffec04;
+    color: #000000;
+    border-radius: 3px;
+    margin-top: 55px;
+    display: inline-block;
+    
+}
+
+.textArea{
+    padding: 72px 0;
+    text-align: center;
+    
+}
+
+.fixSlide{
+    background-image: url("../images/slider_img/banner_img.jpg");
+    height: 920px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.car{
+    font-size: 60px;
+   
+}
+
+.firstCol{
+    height: 340px;
+    
+    text-align: center;
+    padding: 55px 30px 60px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    border: 1px solid #dadfe9;
+}
+
+.cardSection{
+    margin-top: 105px;
+
+}
+
+.firstCol:hover{
+    background-color: #ffec04;
+    color: black;
+}
+
+.latest{
+    text-align: center;
+    margin: 110px;
+}
+
+.slide_para{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.slide{
+    margin-top: 110px;
+}
+
+.slide_para>h3{
+    margin-bottom: 38px;
+}
+
+.slide_para>button{
+    width: 230px;
+    height: 60px;
+    background: #ffec04;
+    color: black;
+    border-radius: 3px;
+    margin-top: 35px;
+}
+
+.slide_para>p{
+    line-height: 1.5;
+}
+
+.slider{
+    margin-top: 100px;
+}
+
+.img_card{
+    padding: 23px 47px;
+    border-bottom: 1px solid #dadfe9;
+    
+    height: 130px;
+    width: auto;
+    object-fit: contain;
+    transition: margin .2s linear;
+}
+
+.img_card:hover{
+    margin-left: 10px;
+}
+
+.card-text{
+    color: #444a57;
+    font-size: 13px;
+    
+    text-transform: capitalize;
+}
+
+.card{
+    border: 1px solid #dadfe9;
+}
+
+.img_sec{
+    margin-bottom: 25px;
+}
+#head_para{
+    font-size: 16px;
+    color: #444a57;
+}
+
+.card_text > p{
+    
+    font-size: 13px;
+    line-height: 1.5;
+    color: #818998;
+    margin-bottom: 8px;
+}
+
+.car_col{
+    margin: 85px;
+}
+
+
+.client_box{
+    
+    padding: 50px 30px 57px;
+    text-align: center;
+    border: 1px solid #dadfe9;
+    overflow-x: hidden;
+}
+
+.testi_para{
+    font-size: 16px;
+    color: #5e6778;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
+
+#testi_text{
+    font-weight: 600;
+    font-size: 16px;
+    color: #5e6778;
+    margin-bottom: 0rem;
+}
+
+.client_box:hover{
+    background-color: #ffec04;
+    
+    
+}
+
+.client_box>p:hover{
+    color: #000000;
+}
+
+.brands{
+    margin: 300px 0px;
+}
+
+.brand_img>img{
+    height: 65px;
+    padding: 0 42px 0;
+    width: 100%;
+}
+
+#cnn{
+    padding-left: 70px;
+}
+
+.footer{
+    
+    background-color: #ffec04;
+    display: flex;
+}
+
+
+.footer_head{
+    margin-top: 100px;
+}
+
+.footer_head>ul>li{
+    transition: margin .2s linear;
+}
+
+.footer_head>ul>li:hover{
+    margin-left: 10px;
+}
+
+.footer_para{
+    line-height: 1.8;
+    margin-top: 40px;
+}
+
+.footer_info{
+    margin-top: 10px;
+}
+
+.footer_head>ul>li{
+    list-style: none;
+    line-height: 2;
+}
+
+.footer_head>ul{
+   margin-top: 40px;
+}
+#emailHelp{
+    border-radius: 7px;
+    
+}
+#exampleInputEmail1{
+    box-shadow: 5px 5px 10px grey;
+}
+
+.mail_box{
+    margin-top: 40px;
+}
+
+.copy_row{
+    display: flex;
+    
+    background-color: #ffec04;
+    justify-content: space-between;
+   
+}
+
+.right_copy>ul{
+    display: flex;
+    list-style: none;
+    
+   
+}
+
+.right_copy>ul>li{
+    padding: 0px 8px;
+    cursor: pointer;
+    
+   
+}
+
+.slick_image{
+    object-fit: contain;
+    width: 100%;
+}
+
+.hamburg{
+    display: none;
+}
+
+/* Responsive Designs */
+
+@media only screen and (max-width: 768px) {
+     .logo{
+        margin: 0 auto;
+    }
+
+    .navi>ul{
+        display: none;
+    }
+
+    .car_col{
+        margin: 0;
+    }
+
+    .client_h2{
+        font-size: 1.6rem;
+    }
+
+    .navBar{
+        display: none;
+
+    }
+
+    .hamburg{
+        display: block;
+    }
+
+   
+
+}
